@@ -1,148 +1,147 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* BODY */
 body {
-    font-family: Arial, sans-serif;
-    background-color:black;
-
+  font-family: Arial, sans-serif;
+  background-color: black;
 }
 
 /* HEADER */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 40px;
-    font-weight: bold;
-    background-color: rgb(37, 37, 37);
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-weight: bold;
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
 
 header h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 nav ul {
-    display: flex;
-    gap: 30px;
-    list-style: none;
+  display: flex;
+  gap: 30px;
+  list-style: none;
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    transition: 0.3s;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
 }
 
 nav a:hover {
-    color: red;
+  color: red;
 }
 
 /* MAIN */
 main {
-    font-weight: bold;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    padding: 60px 40px;
-    background-color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 60px 40px;
+  background-color: black;
 }
 
 /* TEXTO */
 .text {
-    max-width: 500px;
+  max-width: 500px;
 }
 
 .text h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: red
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: red;
 }
 
 .text p {
-    font-size: 18px;
-    color: red;
+  font-size: 18px;
+  color: red;
 }
 
 /* IMAGEM */
 .image img {
-    width: auto;
-    height: 350px;
-    border-radius: 20px;
+  width: auto;
+  height: 350px;
+  border-radius: 20px;
 }
 
-.img1{
-    width: 250px;
-    position: absolute;
-    z-index: 5;
-    left: 0;
-    top:70px
+.img1 {
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  top: 70px;
 }
-.img2{
-    width: 250px;
-    position: absolute;
-    z-index: 5;
-    right: 0;
-    top:70px
+.img2 {
+  width: 250px;
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 70px;
 }
 /* SECTION TECNOLOGIAS */
 .tech {
-    padding: 60px 40px;
-    text-align: center;
-    background-color: black
+  padding: 60px 40px;
+  text-align: center;
+  background-color: black;
 }
 
 .tech h2 {
-    font-size: 28px;
-    margin-bottom: 40px;
-    color: red
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: red;
 }
 
 .tech-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
 }
 
 .tech-card {
-    background: black;
-    padding: 20px;
-    border-radius: 16px;
-    transition: 0.3s;
-    border: solid gray
+  background: black;
+  padding: 20px;
+  border-radius: 16px;
+  transition: 0.3s;
+  border: solid gray;
 }
 
 .tech-card img {
-    width: 60px;
-    margin-bottom: 10px;
+  width: 60px;
+  margin-bottom: 10px;
 }
 
 .tech-card p {
-    font-size: 16px;
-    font-weight: bold;
-    color: red
+  font-size: 16px;
+  font-weight: bold;
+  color: red;
 }
 
 .tech-card:hover {
-    transform: translateY(-5px);
-    background:white;
-    color: red;
+  transform: translateY(-5px);
+  background: white;
+  color: red;
 }
 
-.tech p:hover{
-    color:black
+.tech p:hover {
+  color: black;
 }
 
 /* FOOTER */
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    margin-top: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
 }

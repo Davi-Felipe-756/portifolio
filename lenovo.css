@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(37, 37, 37);
+  color: white
+}
+
+.marca{
+   background-color: red;
+   padding: 10px;
+  border-radius: 5px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+header h1 {
+  font-size: 24px;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  size: 40px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+  
+}
+nav li{
+    size: 40px;
+}
+
+nav a:hover {
+  color: red;
+}
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+.imagi{
+border: 3px solid black;
+border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 600px
+
+}
+.tech {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: black;
+}
+
+.tech h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  color: red;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background: black;
+  padding: 20px;
+  border-radius: 16px;
+  transition: 0.3s;
+  border: solid gray;
+}
+.bemvindo{
+  text-align: center;
+}
+.fabricante{
+  text-align: center;
+}
+.card img {
+  width: 170px;
+  margin-bottom: 10px;
+}
+.card:hover {
+  transform: translateY(-5px);
+  background:white;
+  color: black;
+}
+
+.tech p:hover {
+  color: black;
+}
+.aaa{
+  text-align: center;
+  font-weight: bold;
+}

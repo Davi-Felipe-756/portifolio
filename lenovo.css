@@ -93,6 +93,7 @@ border-radius: 20px;
 }
 .fabricante{
   text-align: center;
+  font-weight: bold;
 }
 .card img {
   width: 170px;
